@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
-  "description": "Helpers library for Jobber app",
+  "description": "Helpers library for Teache.Me app",
   "engines": {
     "node": ">=18"
   },
@@ -18,11 +18,11 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@gustavopmaia/jobber-shared",
+  "name": "@gustavopmaia/teachme-shared",
   "author": "Gustavo P. Maia",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/gustavopmaia/teachme-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
