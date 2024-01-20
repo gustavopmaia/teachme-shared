@@ -69,3 +69,17 @@ export {
   ICertificate,
   ISellerDocument,
 } from './interfaces/seller.interface';
+
+export { uploads, videoUpload } from './cloudinary-upload';
+
+export {
+  IErrorResponse,
+  IError,
+  CustomError,
+  BadRequestError,
+  NotAuthorizedError,
+  NotFoundError,
+  FileTooLargeError,
+  ServerError,
+  ErrnoException,
+} from './error-handler';
