@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "index.js",
   "description": "Helpers library for Teache.Me app",
@@ -29,14 +29,14 @@
   },
   "exports": {
     ".": {
-      "import": "./src/index.js",
-      "require": "./src/index.js"
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
+    },
+    "./icons": {
+      "import": "./build/esm/icons/index.js",
+      "require": "./build/cjs/icons/index.js"
     }
   },
-  "files": [
-    "build",
-    "src"
-  ],
   "types": "./src/index.d.ts",
   "dependencies": {
     "@elastic/elasticsearch": "^8.11.0",
