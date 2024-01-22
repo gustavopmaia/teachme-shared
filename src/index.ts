@@ -15,6 +15,7 @@ export {
   IAuthUser,
 } from './auth.interface'
 export { IBuyerDocument, IReduxBuyer } from './buyer.interface'
+export { IEmailLocals } from './email.interface'
 export {
   IConversationDocument,
   IMessageDocument,
